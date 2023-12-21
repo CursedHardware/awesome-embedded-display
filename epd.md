@@ -6,61 +6,55 @@
 - <https://github.com/CursedHardware/epd-driver-ic>
 - <https://github.com/CursedHardware/hanshow>
 
-## Reference implementation
+## Hardware Reference
 
-- <https://github.com/aceisace/Inkycal>
-- <https://github.com/andelf/epd>
-- <https://github.com/BasicCode/UC8151c>
-- <https://github.com/caemor/epd-waveshare>
-- <https://github.com/CursedHardware/depg0213_epd>
-- <https://github.com/dmd/wxpaper>
-- <https://github.com/ibnadam/info_epd>
-- <https://github.com/nayuki/Pervasive-Displays-epaper-driver>
-- <https://github.com/sohal/epd-driver>
-- <https://github.com/thanosa75/dht11epaper>
-- <https://github.com/vad-babushkin/ePaperDriver>
-- <https://github.com/wezm/ssd1675>
-- <https://github.com/ZinggJM/GxEPD_HD>
-- <https://github.com/ZinggJM/GxEPD_RGB>
-- <https://github.com/ZinggJM/GxEPD>
-- <https://github.com/ZinggJM/GxEPD2_32>
-- <https://github.com/ZinggJM/GxEPD2_4G>
-- <https://github.com/ZinggJM/GxEPD2_AVR>
-- <https://github.com/ZinggJM/GxEPD2_PP>
-- <https://github.com/ZinggJM/GxEPD2_WS_Shield>
-- <https://github.com/ZinggJM/GxEPD2>
-- <https://github.com/ZinggJM/GxEPDxL>
-- <https://github.com/ZinggJM/PxEPD2>
+- [Caster](https://github.com/modos-labs/caster) (Spartan6)
+- [EPDiy](https://github.com/vroland/epdiy) (ESP32)
+- [NekoCal](https://github.com/zephray/NekoCal) (STM32)
+- [NekoInk](https://github.com/zephray/NekoInk) (i.MX6ULL)
+- [PineNote](https://www.pine64.org/pinenote/) (RK3566)
+- [EPD2SPI](https://github.com/MarvelousBlack/epd2spi)
 
-## Reference design
+## Driver Reference
 
-- <http://pmoc98298.pic37.websiteonline.cn/upload/DESPI-C01-sch-V11.pdf>
-- <https://cetest02.cn-bj.ufileos.com/100001_1909185148/DESPI-C102_SCH%20V1.0.pdf>
-- <https://github.com/MarvelousBlack/epd2spi>
-- <https://oshwhub.com/ludas/mo-shui-ping-qu-dong>
-- <https://v4.cecdn.yun300.cn/100001_1909185148/DESPI-C1248_SCH%20V1.0.pdf>
-- <https://www.waveshare.com/w/upload/5/57/2.13inch_e-Paper_HAT_Schematic.pdf>
-- <https://www.waveshare.com/w/upload/5/5b/1.54inch_e-Paper_Schematic.pdf>
+- Rust
+  - <https://github.com/andelf/epd>
+  - [Drivers for various EPDs from Waveshare](https://github.com/caemor/epd-waveshare)
+  - [SSD1675](https://github.com/wezm/ssd1675)
+- C
+  - [Driver for DKE Group 2.13" EPD](https://github.com/CursedHardware/depg0213_epd)
+  - [EM027BS13 driver](https://github.com/kodezine/epd-driver)
+- C++
+  - [Driver for Pervasive Displays' e-paper panels](https://github.com/nayuki/Pervasive-Displays-epaper-driver)
+
+## Product Reference
+
+- [dht11epaper](https://github.com/thanosa75/dht11epaper) (ESP8266)
+- [e-ink weather display](https://github.com/dmd/wxpaper)
+- [e-paper Info](https://github.com/ibnadam/info_epd) (Raspberry Pi)
+- [inkycal](https://github.com/aceisace/Inkycal) (Raspberry Pi)
+- [Building a STM32 Eink Calendar](https://www.zephray.me/post/stm32_epd_calendar/) (STM32)
 
 ## Article
 
-- <https://andelf.github.io/blog/2021/01/15/play-with-2-13-inch-e-ink-display/>
-- <https://www.zephray.me/post/stm32_epd_calendar>
+- <https://kapusta.cc/2019/02/10/font2bytes/>
+- <http://www.eran.io/the-dot-factory-an-lcd-font-and-image-generator/>
+- <https://www.waveshare.net/w/upload/0/02/Chinese_Font_Create_for_e-Paper.pdf>
 
 ## Provider
 
-- Micro Tips - <https://www.microtipsusa.com>
-- Midas Displays - <https://www.midasdisplays.com>
-- Pervasive Displays - <https://www.pervasivedisplays.com>
-- Riverdi - <https://riverdi.com>
-- 元太科技股份有限公司 - <https://www.eink.com>
-- 合力泰科技股份有限公司 - <http://www.holitech.net>
-- 大连东方科脉电子有限公司 - <https://china-epaper.com>
-- 大连佳显电子有限公司 - <https://good-display.com>
-- 大连奇耘电子有限公司 - <http://www.qiyun-display.cn>
-- 无锡威峰科技股份有限公司 - <http://www.wf-tech.com>
-- 深圳市微雪电子有限公司 - <https://www.waveshare.net>
-- 盛辉电子（国际）有限公司 - <http://www.lcdmaker.com>
+- [Micro Tips](https://www.microtipsusa.com)
+- [Midas Displays](https://www.midasdisplays.com)
+- [Pervasive Displays](https://www.pervasivedisplays.com)
+- [Riverdi](https://riverdi.com)
+- [元太科技股份有限公司](https://www.eink.com)
+- [合力泰科技股份有限公司](http://www.holitech.net)
+- [大连东方科脉电子有限公司](https://china-epaper.com)
+- [大连佳显电子有限公司](https://good-display.com)
+- [大连奇耘电子有限公司](http://www.qiyun-display.cn)
+- [无锡威峰科技股份有限公司](http://www.wf-tech.com)
+- [深圳市微雪电子有限公司](https://www.waveshare.net)
+- [盛辉电子（国际）有限公司](http://www.lcdmaker.com)
 
 ## Reseller
 

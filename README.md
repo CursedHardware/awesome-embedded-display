@@ -3,11 +3,7 @@
 - [EPD (E-Paper Display)](epd.md)
 - [OLED Display](oled.md)
 - [TFT Display](tft.md)
-
-## Make dot matrix
-
-- [Make dot matrix](make-dot-matrix.md)
-- [Dot matrix font family](font-family.md)
+- [Bitmap font](bitmap-font.md)
 
 ## LICENSE
 
