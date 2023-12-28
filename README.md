@@ -4,6 +4,7 @@
 - [OLED Display](oled.md)
 - [TFT Display](tft.md)
 - [Bitmap font](bitmap-font.md)
+- [Protocols](protocols.md)
 
 ## LICENSE
 
